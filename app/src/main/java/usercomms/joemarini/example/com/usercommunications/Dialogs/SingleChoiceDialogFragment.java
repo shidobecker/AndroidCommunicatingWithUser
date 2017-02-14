@@ -19,9 +19,12 @@ public class SingleChoiceDialogFragment extends DialogFragment {
         // NOTE: setMessage doesn't work here because the list takes up the content
         // area. Use the setTitle method to set a descriptive prompt
         builder.setTitle("What Is Your Favorite Color?");
-
-        // TODO: The setItems function is used to create a list of content
-
+        builder.setItems(colors, new DialogInterface.OnClickListener() { //Passando uma lista de opções e o que for selecionado no click listener é passado como [i]
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Log.i(TAG, String.format("Color Chosen: %s", colors[i]));
+            }
+        });
 
         // Single-choice dialogs don't need buttons because they
         // auto-dismiss when the user makes a choice

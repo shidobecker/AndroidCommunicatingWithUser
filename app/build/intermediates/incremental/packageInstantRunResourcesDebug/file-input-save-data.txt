@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Feb 13 09:02:54 BRST 2017
+#Tue Feb 14 08:13:08 BRST 2017
 14.set=ANDROID_RESOURCE
 180.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png
 118.set=ANDROID_RESOURCE
@@ -24,7 +24,7 @@
 34.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 88.set=ANDROID_RESOURCE
 86.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
-65.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_text_cursor_material.xml
+65.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_navigation_item_subheader.xml
 61.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 40.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png
 186.set=ANDROID_RESOURCE
@@ -101,7 +101,7 @@
 22.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 27.set=ANDROID_RESOURCE
 74.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
-128.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+128.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_popup_exit.xml
 73.set=ANDROID_RESOURCE
 7.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 103.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_stat_sample_notification.png
@@ -152,7 +152,7 @@
 37.set=ANDROID_RESOURCE
 75.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 50.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
-129.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_popup_exit.xml
+129.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
 83.set=ANDROID_RESOURCE
 8.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 104.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png
@@ -170,7 +170,7 @@
 31.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_dialog.xml
 155.set=ANDROID_RESOURCE
 62.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
-83.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_screen_content_include.xml
+83.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\select_dialog_item_material.xml
 137.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 12.set=ANDROID_RESOURCE
 189.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -178,7 +178,7 @@
 164.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 116.set=ANDROID_RESOURCE
 0.set=ANDROID_RESOURCE
-195.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_action_mode_close_item_material.xml
+195.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_textfield_search_material.xml
 191.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 170.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\notification_template_part_chronometer.xml
 162.set=ANDROID_RESOURCE
@@ -224,7 +224,7 @@
 32.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png
 165.set=ANDROID_RESOURCE
 63.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
-84.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\select_dialog_item_material.xml
+84.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_screen_content_include.xml
 138.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 22.set=ANDROID_RESOURCE
 113.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -232,7 +232,7 @@
 165.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 126.set=ANDROID_RESOURCE
 140.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
-196.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_textfield_search_material.xml
+196.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_action_mode_close_item_material.xml
 171.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_ab_back_mtrl_am_alpha.png
 38.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 133.set=ANDROID_RESOURCE
@@ -250,7 +250,7 @@
 100.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 140.set=ANDROID_RESOURCE
 187.set=ANDROID_RESOURCE
-4.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png
+4.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_edit_text_material.xml
 152.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 101.set=ANDROID_RESOURCE
 96.set=ANDROID_RESOURCE
@@ -295,13 +295,13 @@
 104.set=ANDROID_RESOURCE
 97.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_primary_text_material_dark.xml
 20.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_alert_dialog_button_bar_material.xml
-72.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_search_view.xml
+72.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\abc_alert_dialog_button_bar_material.xml
 126.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 178.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 101.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 150.set=ANDROID_RESOURCE
 197.set=ANDROID_RESOURCE
-5.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_edit_text_material.xml
+5.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png
 153.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 180.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 111.set=ANDROID_RESOURCE
@@ -316,7 +316,7 @@
 159.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png
 134.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\abc_dialog_title_material.xml
 74.set=ANDROID_RESOURCE
-186.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\select_dialog_multichoice_material.xml
+186.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_cab_background_top_material.xml
 161.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_action_bar_up_container.xml
 192.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 172.set=ANDROID_RESOURCE
@@ -324,7 +324,7 @@
 139.set=ANDROID_RESOURCE
 81.set=ANDROID_RESOURCE
 59.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\design_fab_out.xml
-34.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png
+34.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\design_fab_in.xml
 65.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 86.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
 40.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -348,13 +348,13 @@
 114.set=ANDROID_RESOURCE
 98.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png
 21.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png
-73.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\abc_alert_dialog_button_bar_material.xml
+73.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_search_view.xml
 127.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 179.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 102.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 160.set=ANDROID_RESOURCE
 154.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
-6.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_layout_snackbar.xml
+6.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v21\\abc_screen_toolbar.xml
 181.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 121.set=ANDROID_RESOURCE
 count=200
@@ -368,7 +368,7 @@ count=200
 81.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 135.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_dialog_material_background_dark.xml
 84.set=ANDROID_RESOURCE
-187.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_cab_background_top_material.xml
+187.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\select_dialog_multichoice_material.xml
 110.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\abc_ratingbar_small_material.xml
 162.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png
 193.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -376,7 +376,7 @@ count=200
 45.set=ANDROID_RESOURCE
 149.set=ANDROID_RESOURCE
 91.set=ANDROID_RESOURCE
-35.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\design_fab_in.xml
+35.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png
 66.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 87.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png
 10.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_big_media.xml
@@ -406,7 +406,7 @@ count=200
 128.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 103.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 155.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
-7.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v21\\abc_screen_toolbar.xml
+7.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_layout_snackbar.xml
 130.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 182.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 131.set=ANDROID_RESOURCE
@@ -570,7 +570,7 @@ count=200
 33.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 78.set=ANDROID_RESOURCE
 85.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
-64.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_navigation_item_subheader.xml
+64.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_text_cursor_material.xml
 60.base=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_
 139.file=C\:\\dev\\androidprojects\\Start\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\switch_thumb_material_dark.xml
 176.set=ANDROID_RESOURCE
