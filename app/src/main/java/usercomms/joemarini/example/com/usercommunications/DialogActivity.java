@@ -14,7 +14,7 @@ import usercomms.joemarini.example.com.usercommunications.Dialogs.SingleChoiceDi
 import usercomms.joemarini.example.com.usercommunications.Dialogs.SimpleDialogFragment;
 
 public class DialogActivity extends AppCompatActivity
-    implements View.OnClickListener {
+    implements View.OnClickListener, SimpleDialogFragment.SimpleDialogListener {
 
     private final String TAG = "AUC_DLG_ACTIVITY";
     @Override
@@ -40,7 +40,7 @@ public class DialogActivity extends AppCompatActivity
                 DatePickerDialog datePickerDialog = new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker datePicker, int year, int month, int day) {
-                        Log.i(TAG, String.format("Date chosen: day: %d, month: %d, year: %d"));
+                        Log.i(TAG, String.format("Date chosen: day: %d, month: %d, year: %d", day, month, year));
                     }
                 },calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH) );
 
@@ -58,7 +58,7 @@ public class DialogActivity extends AppCompatActivity
 
     private void showSimpleDialog() {
         SimpleDialogFragment simpleDialog = new SimpleDialogFragment();
-        // TODO: Use setCancelable() to make the dialog non-cancelable
+        //  Use setCancelable() to make the dialog non-cancelable
         simpleDialog.setCancelable(false);
         simpleDialog.show(getSupportFragmentManager(), "SimpleDialogFragment");
 
@@ -76,6 +76,23 @@ public class DialogActivity extends AppCompatActivity
 
     }
 
-    //TODO: implement dialog listener interface functions
+    //Sobreescrevendo os metodos da interface com a logica
+    @Override
+    public void onPositiveResult(DialogFragment fragment) {
+        Log.i(TAG, "DialogPositiveResult" );
+    }
+
+    @Override
+    public void onNegativeResult(DialogFragment fragment) {
+        Log.i(TAG, "DialogNegativeResult" );
+
+    }
+
+    @Override
+    public void onNeutralResult(DialogFragment fragment) {
+        Log.i(TAG, "DialogNeutralResult" );
+
+    }
+
 
 }

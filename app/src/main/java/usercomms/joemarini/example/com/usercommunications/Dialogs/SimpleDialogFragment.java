@@ -12,6 +12,13 @@ public class SimpleDialogFragment extends DialogFragment {
     private final String TAG = "AUC_SIMPLE";
 
     // TODO: Implement an interface for hosts to get callbacks
+    public interface  SimpleDialogListener{
+        public void onPositiveResult(DialogFragment fragment);
+        public void onNegativeResult(DialogFragment fragment);
+        public void onNeutralResult(DialogFragment fragment);
+    }
+
+    private SimpleDialogListener myHost;
 
 
     @Override
@@ -25,13 +32,16 @@ public class SimpleDialogFragment extends DialogFragment {
         alert.setPositiveButton("Sure", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-        Log.i(TAG, "SURE CLICKED");
+                Log.i(TAG, "SURE CLICKED");
+                myHost.onPositiveResult(SimpleDialogFragment.this); //Chamando os metodos da interface
             }
         });
         alert.setNegativeButton("Noooo", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 Log.i(TAG, "NO CLICKED");
+                myHost.onNegativeResult(SimpleDialogFragment.this);
+
             }
         });
 
@@ -39,6 +49,8 @@ public class SimpleDialogFragment extends DialogFragment {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 Log.i(TAG, "NOT SURE");
+                myHost.onNeutralResult(SimpleDialogFragment.this);
+
             }
         });
 
@@ -59,4 +71,9 @@ public class SimpleDialogFragment extends DialogFragment {
 
     // TODO: Override onAttach to get Activity instance
 
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        myHost = (SimpleDialogListener)activity; //Instanciando o atributo interface a partir da activity - as activities que chamarem esse SimpleDialogFragment devem implementar essa interface
+    }
 }

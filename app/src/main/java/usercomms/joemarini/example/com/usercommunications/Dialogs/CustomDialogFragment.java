@@ -8,6 +8,7 @@ import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.EditText;
 
 import usercomms.joemarini.example.com.usercommunications.R;
 
@@ -19,14 +20,18 @@ public class CustomDialogFragment extends DialogFragment {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
         // TODO: Create the custom layout using the LayoutInflater class
-
+        LayoutInflater inflater = getActivity().getLayoutInflater();
+        View v = inflater.inflate(R.layout.custom_dialog_layout, null);
+        builder.setView(v);
+        final EditText editText1 = (EditText) v.findViewById(R.id.edtFirstName);
+        final EditText editText2 = (EditText) v.findViewById(R.id.edtLastName);
 
         // TODO: Build the dialog
         builder.setTitle("Please enter your name")
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Log.i(TAG, "OK Clicked");
+                        Log.i(TAG, editText1.getText().toString() + editText2.getText().toString());
                     }
                 })
                 .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
